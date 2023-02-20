@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Connexion</class>
+ <widget class="QWidget" name="Connexion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Connexion</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Connexion
+{
+    Background-color: #617c97;
+}
+
+QWidget QRadioButton:hover
+{
+	Background-color : #bccfc3;
+}
+
+QWidget QRadioButton:checked
+{
+	Background-color : #bccfc3;
+}
+
+QWidget QCheckBox:hover
+{
+	Background-color : #bccfc3;
+}
+
+QWidget QCheckBox:checked
+{
+	Background-color : #bccfc3;
+}</string>
+  </property>
+  <widget class="QLabel" name="logoName">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>154</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>35</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>SGSP </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Cliquez ici&lt;/span&gt; si vous ne vous souvenez plus de votre &lt;span style=&quot; color:#ff0000;&quot;&gt;mot de passe&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>0</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	color: blue;
+} 
+
+QLabel:hover
+{
+	color: #bccfc3;
+}</string>
+   </property>
+   <property name="text">
+    <string>Avez-vous oublier votre mot de passe?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logoImg">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>280</y>
+     <width>451</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">Background-color : #fff</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;@::Edit by &lt;span style=&quot; color:#6fa8dc;&quot;&gt;NCIST&lt;/span&gt; for Police Station&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBoxInfo">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>91</y>
+     <width>291</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox 
+{
+  border: 2px solid black; 
+  border-radius: 20px; 
+} 
+ 
+QGroupBox::title 
+{ 
+	margin: 2 2;
+  	color: #c2c7cb;
+ 	subcontrol-position: top left; 
+    left : 10px;
+	bottom: 5px;
+
+}
+
+QGroupBox QLineEdit
+{
+	border-radius: 5px;
+	color: rgb(84, 0, 0);
+	padding-left: 7px;
+	padding-right: 7px;
+	height: 18px;
+}
+
+QGroupBox QLineEdit:hover
+{
+	border: 2px solid #bccfc3;
+}
+
+QGroupBox QLineEdit:focus
+{
+	border: 1px solid #bfcfc3;
+}
+
+QGroupBox QLineEdit::placeholder
+{
+	color: #c2c7cb;
+}</string>
+   </property>
+   <property name="title">
+    <string>Informations de connection</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <property name="horizontalSpacing">
+       <number>6</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="login">
+        <property name="text">
+         <string>Nom d'utilisateur :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="password">
+        <property name="text">
+         <string>     Mot de passe :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="inputPwd">
+        <property name="font">
+         <font>
+          <family>MS UI Gothic</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QRadioButton" name="adminRadio">
+          <property name="text">
+           <string>Admin</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="userRadio">
+          <property name="text">
+           <string>User</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="inputLogin">
+        <property name="font">
+         <font>
+          <family>MS UI Gothic</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="memoryInfo">
+      <property name="text">
+       <string>Mémoriser mes informations</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="connecter">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>250</y>
+     <width>80</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	Background-color : #fff;
+	border-radius: 5px;
+	border-bottom: 5px solid #bccfc3;
+	padding-top: -5px;
+}
+
+QPushButton:hover
+{
+	border: -1px solid #fcc;
+	border-bottom: 5px solid #bccfc3;
+	background-color: #ffe;
+}
+
+QPushButton:pressed
+{	
+	border-bottom: none;
+	background-color: #bccfc3;
+}</string>
+   </property>
+   <property name="text">
+    <string>Se connecter</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inputLogin</tabstop>
+  <tabstop>inputPwd</tabstop>
+  <tabstop>adminRadio</tabstop>
+  <tabstop>userRadio</tabstop>
+  <tabstop>memoryInfo</tabstop>
+  <tabstop>connecter</tabstop>
+ </tabstops>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

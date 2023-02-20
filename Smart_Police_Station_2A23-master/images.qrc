@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.png</file>
+        <file>acces.jpg</file>
+        <file>blue-gun.png</file>
+        <file>config.jpg</file>
+        <file>declaration.png</file>
+        <file>enquette.png</file>
+        <file>loupe.jpg</file>
+        <file>message.jpg</file>
+        <file>policeman.png</file>
+        <file>pv.jpg</file>
+        <file>user.jpg</file>
+        <file>dossier.png</file>
+        <file>add-user.png</file>
+        <file>delete-user.png</file>
+        <file>adjust-user.png</file>
+        <file>profile.png</file>
+        <file>home-icon.png</file>
+        <file>search.png</file>
+        <file>download-icon.png</file>
+        <file>upload_image.png</file>
+        <file>view-refresh-4.png</file>
+        <file>image-enqeuete.jpg</file>
+        <file>suspect.jpg</file>
+        <file>temoin.jpg</file>
+    </qresource>
+</RCC>
